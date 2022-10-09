@@ -8,10 +8,25 @@
 </head>
 
 <style>
+    body{
+        background: #18142c;
+    }
     .box{
         width: 100%;
         padding-top: 40%;
         text-align: center;
+    }
+    .title{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    .tip{
+        width: 70%;
+        color: blue;
+        font-size: 14px;
+        margin: 10px auto 20px;
     }
     button{
         border-radius: 50px;
@@ -24,6 +39,11 @@
 </style>
 <body>
     <div class="box">
+        <div class="title">
+            <div style="margin-right: 20px;">临时停靠</div>
+            <div>请多关照</div>
+        </div>
+        <p class="tip">如果我的车妨碍了您的通行，请点击下方按钮与我联系</p>
         <button onclick="callPhone()">点击联系车主</button>
     </div>
 </body>
